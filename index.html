@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jquery_ui_practice</title>
+  <!-- jq_ui link -->
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <!-- css link -->
+  <link rel="stylesheet" href="style/bootstrap/bootstrap.css">
+  <link rel="stylesheet" href="style/css/style.css">
+  <link rel="stylesheet" href="style/css/media.css">
+
+</head>
+
+<body>
+  <section class="container mt-5">
+    <!-- draggable -->
+    <h2 class="text-center bg-primary text-white">Draggable</h2>
+    <div class="mt-5 row">
+      <!-- draggable default -->
+      <div id="draggable" class="ui-widget-content bg-warning">
+        <p class="">Drag me around default funtionality</p>
+      </div>
+      <!-- draggable scrool -->
+      <div id="draggable2" class="ui-widget-content bg-danger">
+        <p>scrollSensitivity set to 100</p>
+      </div>
+      <div id="draggable3" class="ui-widget-content bg-success">
+        <p>scrollSpeed set to 100</p>
+      </div>
+    </div>
+
+    <!-- sortable -->
+    <h2 class="text-center bg-warning text-white mt-5 mb-5">Sortable</h2>
+
+    <ul id="sortable">
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+      <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+    </ul>
+
+    <!-- accordion -->
+    <h2 class="text-center bg-danger text-white mt-5 mb-5">Accordion</h2>
+    <div id="accordion">
+      <h3>Section 1</h3>
+      <div>
+        <p>
+          Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+          ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+          amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+          odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+        </p>
+      </div>
+      <h3>Section 2</h3>
+      <div>
+        <p>
+          Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+          purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+          velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+          suscipit faucibus urna.
+        </p>
+      </div>
+      <h3>Section 3</h3>
+      <div>
+        <p>
+          Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+          Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+          ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+          lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+        </p>
+        <ul>
+          <li>List item one</li>
+          <li>List item two</li>
+          <li>List item three</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Autocomplete -->
+    <h2 class="text-center bg-danger text-white mt-5 mb-5">Autocomplete</h2>
+
+    <div class="ui-widget mb-5">
+      <label for="tags">Tags: </label>
+      <input id="tags">
+    </div>
+
+    <!-- Autocomplete -->
+    <h2 class="text-center bg-dark text-white mt-5 mb-5">Datepicker</h2>
+    <p>Date: <input type="text" class="bg-warning" id="datepicker"></p>
+    <!-- Autocomplete -->
+    <h2 class="text-center bg-dark text-white mt-5 mb-5">Datepicker</h2>
+
+
+  </section>
+  <!-- js link -->
+  <script src="js/jquery-3.7.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script src="js/bootstrap_js/bootstrap.bundle.min.js"></script>
+  <script src="js/script.js"></script>
+
+</body>
+
+</html>

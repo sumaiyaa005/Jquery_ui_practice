@@ -1,0 +1,34 @@
+/* draggable */
+#draggable,
+#draggable2,
+#draggable3 {
+    width: 150px;
+    height: 150px;
+    padding: 0.5em;
+    margin: 0 40px 0 10px;
+    text-align: center;
+    color: white;
+}
+
+/* sortable */
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 30%;
+}
+
+#sortable li {
+    padding: 0.4em;
+    padding-left: 1.5em;
+    font-size: 16px;
+    height: 50px;
+
+}
+
+#sortable li span {
+    position: absolute;
+    margin-left: -1.3em;
+    padding-top: 20px;
+}
+/* Accordion */
